@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/citibike-tracker/static/css/main.d454b6f2.chunk.css",
-    "main.js": "/citibike-tracker/static/js/main.77b08b6f.chunk.js",
-    "main.js.map": "/citibike-tracker/static/js/main.77b08b6f.chunk.js.map",
+    "main.css": "/citibike-tracker/static/css/main.904e3ef7.chunk.css",
+    "main.js": "/citibike-tracker/static/js/main.83c9adf1.chunk.js",
+    "main.js.map": "/citibike-tracker/static/js/main.83c9adf1.chunk.js.map",
     "runtime-main.js": "/citibike-tracker/static/js/runtime-main.a6300b8d.js",
     "runtime-main.js.map": "/citibike-tracker/static/js/runtime-main.a6300b8d.js.map",
-    "static/js/2.d42423a1.chunk.js": "/citibike-tracker/static/js/2.d42423a1.chunk.js",
-    "static/js/2.d42423a1.chunk.js.map": "/citibike-tracker/static/js/2.d42423a1.chunk.js.map",
+    "static/js/2.d871a8a2.chunk.js": "/citibike-tracker/static/js/2.d871a8a2.chunk.js",
+    "static/js/2.d871a8a2.chunk.js.map": "/citibike-tracker/static/js/2.d871a8a2.chunk.js.map",
     "index.html": "/citibike-tracker/index.html",
-    "precache-manifest.f83df10990067ee7a626e6663567ad13.js": "/citibike-tracker/precache-manifest.f83df10990067ee7a626e6663567ad13.js",
+    "precache-manifest.50529e9efe5ee2a0ff8b51c8b9f4b4ce.js": "/citibike-tracker/precache-manifest.50529e9efe5ee2a0ff8b51c8b9f4b4ce.js",
     "service-worker.js": "/citibike-tracker/service-worker.js",
-    "static/css/main.d454b6f2.chunk.css.map": "/citibike-tracker/static/css/main.d454b6f2.chunk.css.map"
+    "static/css/main.904e3ef7.chunk.css.map": "/citibike-tracker/static/css/main.904e3ef7.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.a6300b8d.js",
-    "static/js/2.d42423a1.chunk.js",
-    "static/css/main.d454b6f2.chunk.css",
-    "static/js/main.77b08b6f.chunk.js"
+    "static/js/2.d871a8a2.chunk.js",
+    "static/css/main.904e3ef7.chunk.css",
+    "static/js/main.83c9adf1.chunk.js"
   ]
 }

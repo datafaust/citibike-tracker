@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/citibike-tracker/static/css/main.904e3ef7.chunk.css",
-    "main.js": "/citibike-tracker/static/js/main.78c5a928.chunk.js",
-    "main.js.map": "/citibike-tracker/static/js/main.78c5a928.chunk.js.map",
+    "main.js": "/citibike-tracker/static/js/main.bf74f038.chunk.js",
+    "main.js.map": "/citibike-tracker/static/js/main.bf74f038.chunk.js.map",
     "runtime-main.js": "/citibike-tracker/static/js/runtime-main.a6300b8d.js",
     "runtime-main.js.map": "/citibike-tracker/static/js/runtime-main.a6300b8d.js.map",
     "static/js/2.d871a8a2.chunk.js": "/citibike-tracker/static/js/2.d871a8a2.chunk.js",
     "static/js/2.d871a8a2.chunk.js.map": "/citibike-tracker/static/js/2.d871a8a2.chunk.js.map",
     "index.html": "/citibike-tracker/index.html",
-    "precache-manifest.d6d420f1f4a8c7fb6b00a0922cb41d80.js": "/citibike-tracker/precache-manifest.d6d420f1f4a8c7fb6b00a0922cb41d80.js",
+    "precache-manifest.b27584fea0142b2fb7ef30e42805e393.js": "/citibike-tracker/precache-manifest.b27584fea0142b2fb7ef30e42805e393.js",
     "service-worker.js": "/citibike-tracker/service-worker.js",
     "static/css/main.904e3ef7.chunk.css.map": "/citibike-tracker/static/css/main.904e3ef7.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.a6300b8d.js",
     "static/js/2.d871a8a2.chunk.js",
     "static/css/main.904e3ef7.chunk.css",
-    "static/js/main.78c5a928.chunk.js"
+    "static/js/main.bf74f038.chunk.js"
   ]
 }

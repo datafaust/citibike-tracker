@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/citibike-tracker/static/css/main.904e3ef7.chunk.css",
-    "main.js": "/citibike-tracker/static/js/main.bf74f038.chunk.js",
-    "main.js.map": "/citibike-tracker/static/js/main.bf74f038.chunk.js.map",
+    "main.css": "/citibike-tracker/static/css/main.c406c57e.chunk.css",
+    "main.js": "/citibike-tracker/static/js/main.14039ed3.chunk.js",
+    "main.js.map": "/citibike-tracker/static/js/main.14039ed3.chunk.js.map",
     "runtime-main.js": "/citibike-tracker/static/js/runtime-main.a6300b8d.js",
     "runtime-main.js.map": "/citibike-tracker/static/js/runtime-main.a6300b8d.js.map",
-    "static/js/2.d871a8a2.chunk.js": "/citibike-tracker/static/js/2.d871a8a2.chunk.js",
-    "static/js/2.d871a8a2.chunk.js.map": "/citibike-tracker/static/js/2.d871a8a2.chunk.js.map",
+    "static/js/2.2fa43ebe.chunk.js": "/citibike-tracker/static/js/2.2fa43ebe.chunk.js",
+    "static/js/2.2fa43ebe.chunk.js.map": "/citibike-tracker/static/js/2.2fa43ebe.chunk.js.map",
     "index.html": "/citibike-tracker/index.html",
-    "precache-manifest.b27584fea0142b2fb7ef30e42805e393.js": "/citibike-tracker/precache-manifest.b27584fea0142b2fb7ef30e42805e393.js",
+    "precache-manifest.c84a349eab8d2749aa598ef9d1c0c2e0.js": "/citibike-tracker/precache-manifest.c84a349eab8d2749aa598ef9d1c0c2e0.js",
     "service-worker.js": "/citibike-tracker/service-worker.js",
-    "static/css/main.904e3ef7.chunk.css.map": "/citibike-tracker/static/css/main.904e3ef7.chunk.css.map"
+    "static/css/main.c406c57e.chunk.css.map": "/citibike-tracker/static/css/main.c406c57e.chunk.css.map",
+    "static/media/bikeLevelGreat.png": "/citibike-tracker/static/media/bikeLevelGreat.82210fe3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a6300b8d.js",
-    "static/js/2.d871a8a2.chunk.js",
-    "static/css/main.904e3ef7.chunk.css",
-    "static/js/main.bf74f038.chunk.js"
+    "static/js/2.2fa43ebe.chunk.js",
+    "static/css/main.c406c57e.chunk.css",
+    "static/js/main.14039ed3.chunk.js"
   ]
 }

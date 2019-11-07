@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f452109d6805ad5f6e837cab195c9626",
+    "revision": "06cc4fe8390440e1500b2400798f8292",
     "url": "/citibike-tracker/index.html"
   },
   {
-    "revision": "d3d80fa33aa3dfa7bad1",
-    "url": "/citibike-tracker/static/css/main.c406c57e.chunk.css"
+    "revision": "2fd2e66cd29cc8371f2c",
+    "url": "/citibike-tracker/static/css/main.40f2b3c4.chunk.css"
   },
   {
-    "revision": "3e0fb1697847c9668304",
-    "url": "/citibike-tracker/static/js/2.2fa43ebe.chunk.js"
+    "revision": "f25f23b0f3ba9abb0eaa",
+    "url": "/citibike-tracker/static/js/2.d0342563.chunk.js"
   },
   {
-    "revision": "d3d80fa33aa3dfa7bad1",
-    "url": "/citibike-tracker/static/js/main.14039ed3.chunk.js"
+    "revision": "2fd2e66cd29cc8371f2c",
+    "url": "/citibike-tracker/static/js/main.1d4be730.chunk.js"
   },
   {
     "revision": "1c97e81ef7314da78a81",

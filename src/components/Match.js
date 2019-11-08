@@ -5,11 +5,7 @@ class Match extends Component {
     render() {
 
         const MatchStyles = {
-            height: "10%",
-            width: "80%",
-            zIndex: "9999",
-            margin: "auto",
-            position: "absolute"
+            textAlign: "center"
         }
     
         const ImgStyles = {
@@ -35,8 +31,8 @@ class Match extends Component {
                     this.props.matches.map(match => {
                         const address=match.name;
                     return  <ListGroup.Item
-                                style={MatchStyles} 
-                                className="Matches"
+                               
+                                style={MatchStyles}
                                 action  
                                 value={`[${match.lat}, ${match.lon}]`}
                                 // function expressions could cause this to rerender unnecessarily.

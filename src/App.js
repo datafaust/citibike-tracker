@@ -243,10 +243,12 @@ class App extends Component {
           <h1 className={classes.title}><b>city</b></h1>
           <h1 style={{ color: "#00BFFF", outlineColor: "coral" }}><b>bike</b></h1>
         </div>
-        <Match
-          matches={this.state.matches}
-          alertClicked={this.alertClicked}
-        />
+        <div className={classes.matches}>
+          <Match
+            matches={this.state.matches}
+            alertClicked={this.alertClicked}
+          />
+        </div>
         <div className={classes.btnDiv}>
         <FavoritesList
           buttonStyles={this.state.buttonStyles}

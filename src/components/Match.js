@@ -7,8 +7,9 @@ class Match extends Component {
         const MatchStyles = {
             height: "10%",
             width: "80%",
-            zIndex: "1000",
-            margin: "auto"
+            zIndex: "9999",
+            margin: "auto",
+            position: "absolute"
         }
     
         const ImgStyles = {

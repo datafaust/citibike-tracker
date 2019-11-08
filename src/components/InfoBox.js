@@ -28,7 +28,7 @@ class InfoBox extends Component {
         let info =null;
         if(this.props.showInfo) {
         info = (
-            <div>
+            <div className={classes.overlay}>
                 <div style={favoritesStyle}>
                     <Favorites
                         favoritesColor={this.props.favoritesColor} 
@@ -84,7 +84,7 @@ class InfoBox extends Component {
         }
 
         return (
-            <div className={classes.box}>
+            <div >
                 
                 {info}
                 

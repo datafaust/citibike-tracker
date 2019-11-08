@@ -9,15 +9,15 @@ class Location extends Component {
 
         const locStyles = {
             position: "absolute",
-            zIndex: "1000",
+            zIndex: "999",
             width: "5%",
             marginLeft:"5%",
             marginRight: "80%",
-            marginTop: "80%",
+            marginTop: "70%",
         }
 
         return (
-            <div style={locStyles}>
+            <div>
                 <button 
                     style = {this.props.buttonStyles}
                     onClick={this.props.setUserLocation}
@@ -31,3 +31,7 @@ class Location extends Component {
 
 
 export default Location;
+
+/**
+ *  <div style={locStyles}>
+ */

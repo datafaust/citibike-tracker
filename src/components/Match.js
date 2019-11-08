@@ -29,7 +29,7 @@ class Match extends Component {
 
         return (
             <div>
-                 <li>
+                 
                 {
                     this.props.matches.map(match => {
                         const address=match.name;
@@ -52,7 +52,7 @@ class Match extends Component {
                             </ListGroup.Item>
                         })
                 }
-                </li>
+               
             </div>
         );
     }

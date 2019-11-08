@@ -31,7 +31,7 @@ class FavoritesList extends Component {
         }
 
         return (
-            <div style={favStyles}>
+            <div >
                 <button
                     variant="primary"
                     style={this.props.buttonStyles}
@@ -65,3 +65,7 @@ class FavoritesList extends Component {
 }
 
 export default FavoritesList;           
+
+/**
+ *   <div style={favStyles}>
+ */

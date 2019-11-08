@@ -22,22 +22,21 @@
     text-align: center;
   }
 
-.box{
-    position: absolute;  
-}
+  .overlay { 
+    width: 100%;    
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    margin-top: 65%;
+    background-color: aliceblue          
+  }
 
-.box:hover .hidden{
-    opacity: 1;
-     width: 500px;
-}
 
-.box .hidden{    
-   background: yellow;
-    height: 300px;    
-    position: absolute; 
-    top: 0px;
-    left: 0px;    
-    width: 0px;
-    opacity: 0;    
-    transition: all 1s ease;
-}
+  .infoBox_buttonContainer__13U3W {
+    position: absolute;
+    z-index: 9999;
+  }
+
+  

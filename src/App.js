@@ -10,6 +10,7 @@ import Match from './components/Match'
 import classes from './app.module.css';
 import FavoritesList from './components/FavoritesList';
 import DocksSwitch from './components/DocksSwitch';
+import { Container } from 'react-bootstrap';
 
 class App extends Component {
   constructor(props) {
@@ -226,29 +227,21 @@ class App extends Component {
       textAlign: "center"
     }
 
-    const titleText = {
-      position: "absolute",
-      zIndex: "1000",
-      display: "flex",
-      width: "10%",
-      //margin: "auto"
-      marginLeft: "45%",
-      marginRight: "45%",
-      textShadow: "2px 2px 0px  #fff",
-      marginTop: "1%"
-    }
 
 
     return (
-      <div>
-        <div style={titleText}>
-          <h2 style={{ color: "#00008B", outlineColor: "coral" }}><b>City</b></h2>
-          <h2 style={{ color: "#00BFFF", outlineColor: "coral" }}><b>bike</b></h2>
+     // <div className="container">
+     <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
+       <div className={classes.titleText}>
+          <div className={classes.curve}></div>
+          <h1 className={classes.title}><b>city</b></h1>
+          <h1 style={{ color: "#00BFFF", outlineColor: "coral" }}><b>bike</b></h1>
         </div>
         <Match
           matches={this.state.matches}
           alertClicked={this.alertClicked}
         />
+        <div className={classes.btnDiv}>
         <FavoritesList
           buttonStyles={this.state.buttonStyles}
           listFavorites={this.listFavorites}
@@ -258,11 +251,7 @@ class App extends Component {
           favorites={this.state.favorites}
           removeFavorites={this.removeFavorites}
         />
-        <Location
-          userLocation={this.state.userLocation}
-          setUserLocation={this.setUserLocation}
-          buttonStyles={this.state.buttonStyles}
-        />
+        <br/>
         <DocksSwitch
           buttonStyles={this.state.buttonStyles}
           clickHandler={this.clickHandler}
@@ -272,6 +261,13 @@ class App extends Component {
           black={this.state.black}
           btnClass={this.state.btnClass}
         />
+        <br/>
+        <Location
+          userLocation={this.state.userLocation}
+          setUserLocation={this.setUserLocation}
+          buttonStyles={this.state.buttonStyles}
+        />
+         </div>
         <Leaf
           viewport={this.state.viewport}
           stationsInfo={this.state.stationsInfo}
@@ -281,7 +277,7 @@ class App extends Component {
           handleInputChange={this.handleInputChange}
           userLocation={this.state.userLocation}
         />
-        <InfoBox
+         <InfoBox
           selectedStation={this.state.selectedStation}
           selectedStationStatus={this.state.selectedStationStatus}
           showInfo={this.state.showInfo}
@@ -290,7 +286,8 @@ class App extends Component {
           selectedStation={this.state.selectedStation}
           favoritesColor={this.state.favoritesColor}
         />
-      </div>
+      
+      </Container>
     );
   }
 }

@@ -9,7 +9,7 @@ class DocksSwitch extends Component {
             width: "5%",
             marginLeft:"80%",
             marginRight: "5%",
-            marginTop: "80%",
+            marginTop: "70%"
         }
 
         const buttonStyles ={
@@ -24,10 +24,10 @@ class DocksSwitch extends Component {
         //let btn_class = this.props.black ? "blackButton" : "whiteButton";
 
         return (
-            <div style={switchStyles}>
+            <div>
 
                 <button
-                    className={this.props.btn_class} 
+                    style={buttonStyles}
                     onClick={this.props.changeColor.bind(this)}
                     >
                     <img src="https://img.icons8.com/metro/26/000000/switch-off--v3.png"></img>   
@@ -45,4 +45,7 @@ export default DocksSwitch;
                 >
                     <img src="https://img.icons8.com/metro/26/000000/switch-off--v3.png"></img>   
                 </button> 
+
+
+                 <div style={switchStyles}>
  */

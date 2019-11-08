@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
-import classes from './leaf.module.css';
+//import classes from './leaf.module.css';
 import Search from './Search';
 //import './leaf.css'
 //import InfoBox from './InfoBox';
@@ -15,7 +15,7 @@ import { Button } from 'react-bootstrap';
 //import ErrorBoundary from '../ErrorBoundary/ErrorBoundary'
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 //require('leaflet.markercluster')
-import 'react-leaflet-markercluster/dist/styles.min.css'; 
+//import 'react-leaflet-markercluster/dist/styles.min.css'; 
 
 class Leaf extends Component {
 
@@ -53,7 +53,7 @@ class Leaf extends Component {
             top: "0",
             bottom: "0",
             width: "100vw",
-            height: "70vh"
+            height: "100vh"
           }
 
         const iconUser= new L.Icon({

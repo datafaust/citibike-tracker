@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    border-radius: 30px;
+  }
+  .container > div {
+    flex: 1; /*grow*/
+  }
+
+  .buttonContainer {
+    display: flex;
+    margin: 0 auto;
+    /*width: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 70%; */
+  }
+
+  .buttonContainer > div {
+    flex: 1; /*grow*/
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+.box{
+    position: absolute;  
+}
+
+.box:hover .hidden{
+    opacity: 1;
+     width: 500px;
+}
+
+.box .hidden{    
+   background: yellow;
+    height: 300px;    
+    position: absolute; 
+    top: 0px;
+    left: 0px;    
+    width: 0px;
+    opacity: 0;    
+    transition: all 1s ease;
+}

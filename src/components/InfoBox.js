@@ -59,8 +59,7 @@ class InfoBox extends Component {
             <div>
 
             </div>
-            <br></br>
-            <br></br>
+          
             <hr></hr>
             <div className={classes.buttonContainer}>
                 <div>

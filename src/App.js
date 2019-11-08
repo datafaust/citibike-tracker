@@ -57,6 +57,7 @@ class App extends Component {
       favoritesColor: "white",
       show: false
     };
+    this.mapClick = this.mapClick.bind(this)
   }
 
 
@@ -220,6 +221,11 @@ class App extends Component {
     this.setState({ show: false });
   };
 
+  mapClick(e){
+    console.log("clicked on map")
+    this.setState({ showInfo: false });
+  }
+
 
   render() {
 
@@ -276,6 +282,7 @@ class App extends Component {
           buttonStyles={this.buttonStyles}
           handleInputChange={this.handleInputChange}
           userLocation={this.state.userLocation}
+          mapClick={this.mapClick}
         />
          <InfoBox
           selectedStation={this.state.selectedStation}

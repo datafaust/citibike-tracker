@@ -84,6 +84,7 @@ class Leaf extends Component {
                      maxZoom={18}
                      style= {mapStyles}
                      className="markercluster-map"
+                     onClick={this.props.mapClick}
                      >
                     <TileLayer
                         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

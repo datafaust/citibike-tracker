@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2138963fb1abdd8b6d3e5f9f67705f05",
+    "revision": "e0988cc75bdd6e0f218c7d87e021c57a",
     "url": "/citibike-tracker/index.html"
   },
   {
-    "revision": "c9f1b06b5e514c13e59d",
-    "url": "/citibike-tracker/static/css/main.9db030d4.chunk.css"
+    "revision": "4fbad10ad1459d2c1da9",
+    "url": "/citibike-tracker/static/css/main.37802875.chunk.css"
   },
   {
     "revision": "7d4e8ebe03163faf31f7",
     "url": "/citibike-tracker/static/js/2.d3fbc125.chunk.js"
   },
   {
-    "revision": "c9f1b06b5e514c13e59d",
+    "revision": "4fbad10ad1459d2c1da9",
     "url": "/citibike-tracker/static/js/main.5c6f39e1.chunk.js"
   },
   {

@@ -11,14 +11,14 @@
     margin: auto;
     margin-left: 45%;
     margin-right: 45%;
-    text-shadow: 2px 2px 0px  #fff;
+    text-shadow: 2px 2px 0px black;
     margin-top: 1%
   }
 
 
 .title {
     color: #00008B;
-    text-shadow: 2px 2px white; 
+    text-shadow: 2px 2px black; 
     -webkit-font-smoothing: antialiased;
 }
 
@@ -37,7 +37,7 @@
     width: 10%; 
     position: absolute;
     z-Index:999;
-    margin-top: 37%;
+    margin-top: 35%;
     margin-left: 95%;
 }
 
@@ -49,12 +49,35 @@
     width: 60%
 }
 
+.splash_screen {
+  font-size: 25px;
+  position: relative;
+  height: 1000px;
+  
+}
+
+.loader {
+  margin: auto;
+  margin-top: 40%;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 @media screen and (max-width: 600px) {
     .btnDiv {
         width: 10%; 
         position: absolute;
         z-Index:999;
-        margin-top: 130%;
+        margin-top: 120%;
         margin-left: 80%
     }
 
@@ -69,7 +92,7 @@
         margin: auto;
         margin-left: 35%;
         margin-right: 55%;
-        text-shadow: 2px 2px 0px  #fff;
+        text-shadow: 2px 2px 0px black;
         margin-top: 3%
       }
 

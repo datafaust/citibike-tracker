@@ -18,12 +18,13 @@ class Location extends Component {
 
         return (
             <div>
-                <button 
+                <Button
+                    className={classes.loc} 
                     style = {this.props.buttonStyles}
                     onClick={this.props.setUserLocation}
                     >
                     <img src="https://img.icons8.com/windows/32/000000/worldwide-location.png"></img>
-                </button> 
+                </Button> 
             </div>
         );
     }

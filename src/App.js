@@ -6,7 +6,8 @@ import React, { Component } from 'react';
 import Leaf from './components/Leaf';
 import InfoBox from './components/InfoBox';
 import Location from './components/Location';
-import Match from './components/Match'
+import Match from './components/Match';
+import Reload from './components/Reload';
 import classes from './app.module.css';
 import FavoritesList from './components/FavoritesList';
 import DocksSwitch from './components/DocksSwitch';
@@ -24,15 +25,14 @@ class App extends Component {
         zoom: 10
       },
       buttonStyles: {
-        //width:"40px",
-        //height:"40px",
-        padding: "4px 4px",
-        margin: "0",
+        display:"block",
+        backgroundColor:"white",
         borderRadius: "50%",
-        backgroundColor: "white",
-        color: "#FFF",
-        boxShadow: "3px 3px 3px #999"
-        //border: "10px solid rgba(255,255,255,.5)"
+        borderWidth: "thin",
+        borderColor: "white",
+        border: "1px solid",
+        padding: "5px",
+        boxShadow: "2px 2px 2px #888888"
       },
       btnClass: "whiteButton",
       black: true,
@@ -55,29 +55,59 @@ class App extends Component {
       matches: [],
       favorites: [],
       favoritesColor: "white",
-      show: false
+      show: false,
+      loading: false
     };
     this.mapClick = this.mapClick.bind(this)
   }
 
 
   componentDidMount() {
+
+    try {
+      this.fetchData()  
+    } catch (err) {
+      console.log(err);
+      this.setState({
+        loading: false,
+      });
+    }
+
+    //requestStationInfo();
+    //requestStationStatus();
+  }
+
+
+  fetchData=()=>{
     const requestStationInfo = async () => {
       await fetch('https://gbfs.citibikenyc.com/gbfs/en/station_information.json')
         .then(res => res.json())
         .then(res =>
-          this.setState({ stationsInfo: res, showStations: true }))
+          this.setState({ stationsInfo: res, showStations: true, loading: true }))
     }
 
     const requestStationStatus = async () => {
       await fetch('https://gbfs.citibikenyc.com/gbfs/en/station_status.json')
         .then(res => res.json())
         .then(res =>
-          this.setState({ stationsStatus: res }))
+          this.setState({ stationsStatus: res, loading: true }))
     }
 
     requestStationInfo();
     requestStationStatus();
+  }
+
+  LoadingMessage=()=> {
+    return (
+      <div className={classes.splash_screen}>
+        <div className={classes.loader}></div>
+      </div>
+    );
+  }
+
+  reloadData=()=>{
+    this.setState({loading:false})
+    this.fetchData();
   }
 
   changeColor() {
@@ -181,7 +211,7 @@ class App extends Component {
       longitude: arr[1],
       zoom: 15
     }
-    this.setState({ viewport: newViewport, matches: [] });
+    this.setState({ viewport: newViewport, matches: [], searchInput:"" });
   }
 
   logFavorites = () => {
@@ -238,6 +268,10 @@ class App extends Component {
     return (
      // <div className="container">
      <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
+       
+       <div>{!this.state.loading ? 
+              this.LoadingMessage() : 
+              <div></div>}</div>
        <div className={classes.titleText}>
           <div className={classes.curve}></div>
           <h1 className={classes.title}><b>city</b></h1>
@@ -250,6 +284,13 @@ class App extends Component {
           />
         </div>
         <div className={classes.btnDiv}>
+       
+        <br/>
+        <Reload 
+           buttonStyles={this.state.buttonStyles}
+           reloadData={this.reloadData}
+        />
+        <br/>
         <FavoritesList
           buttonStyles={this.state.buttonStyles}
           listFavorites={this.listFavorites}
@@ -258,16 +299,6 @@ class App extends Component {
           show={this.state.show}
           favorites={this.state.favorites}
           removeFavorites={this.removeFavorites}
-        />
-        <br/>
-        <DocksSwitch
-          buttonStyles={this.state.buttonStyles}
-          clickHandler={this.clickHandler}
-          buttonIcons={this.state.buttonIcons}
-          isClicked={this.state.isClicked}
-          changeColor={this.changeColor}
-          black={this.state.black}
-          btnClass={this.state.btnClass}
         />
         <br/>
         <Location
@@ -324,4 +355,18 @@ export default App;
         })
       }
 
+
+
+       <DocksSwitch
+          buttonStyles={this.state.buttonStyles}
+          clickHandler={this.clickHandler}
+          buttonIcons={this.state.buttonIcons}
+          isClicked={this.state.isClicked}
+          changeColor={this.changeColor}
+          black={this.state.black}
+          btnClass={this.state.btnClass}
+        />
+
  */
+
+

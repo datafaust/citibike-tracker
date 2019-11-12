@@ -23,6 +23,7 @@ class InfoBox extends Component {
             marginTop: "2%"
         }
 
+        
         const br = `\n`;
 
         let info =null;

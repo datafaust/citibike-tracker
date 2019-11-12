@@ -23,7 +23,7 @@ class FavoritesList extends Component {
                     {favorite.name}
                     <button 
                         onClick={this.props.removeFavorites(favorite)}
-                        >X</button>
+                        >x</button>
                 </div>
                 )
             
@@ -32,13 +32,13 @@ class FavoritesList extends Component {
 
         return (
             <div >
-                <button
+                <Button
                     variant="primary"
                     style={this.props.buttonStyles}
                     onClick={this.props.listFavorites}
                 >
                     <img src="https://img.icons8.com/windows/32/000000/add-to-favorites.png"></img>
-                </button>
+                </Button>
 
                     <Modal 
                         show={this.props.show} 

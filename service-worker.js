@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/citibike-tracker/precache-manifest.b2fb3a2cbcf1932cd1c3a8ccc7883be5.js"
+  "/citibike-tracker/precache-manifest.cfd840545b1fb898e163a187ea93fed8.js"
 );
 
 self.addEventListener('message', (event) => {

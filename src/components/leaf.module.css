@@ -1,3 +1,5 @@
+
+/*
 .leaf {
     position: "relative";
     top: "0";
@@ -7,4 +9,18 @@
     
  
 }
+
+
+*/
+
+@keyframes fade { 
+    from { opacity: 0.5; } 
+  }
+
+
+
+.blinking {
+    animation: fade .5s infinite alternate;
+  }
+
 

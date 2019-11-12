@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
-//import classes from './leaf.module.css';
+import classes from './leaf.module.css';
 import Search from './Search';
 //import './leaf.css'
 //import InfoBox from './InfoBox';
@@ -65,7 +65,7 @@ class Leaf extends Component {
           shadowSize: null,
           shadowAnchor: null,
           iconSize: new L.Point(45, 45),
-          className: 'dummy'
+          className: classes.blinking
           }) 
 
          

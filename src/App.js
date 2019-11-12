@@ -269,9 +269,7 @@ class App extends Component {
      // <div className="container">
      <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
        
-       <div>{!this.state.loading ? 
-              this.LoadingMessage() : 
-              <div></div>}</div>
+     
        <div className={classes.titleText}>
           <div className={classes.curve}></div>
           <h1 className={classes.title}><b>city</b></h1>
@@ -367,6 +365,10 @@ export default App;
           btnClass={this.state.btnClass}
         />
 
+
+          <div>{!this.state.loading ? 
+              this.LoadingMessage() : 
+              <div></div>}</div>
  */
 
 

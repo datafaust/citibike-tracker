@@ -64,19 +64,13 @@ class InfoBox extends Component {
             <hr></hr>
             <div className={classes.buttonContainer}>
                 <div>
-                <Button>
-                    <img src="https://img.icons8.com/office/40/000000/bicycle.png"/>
-                    <div>Buy Pass</div>
-                </Button>
+                
                 </div>
                 <div>
                     
                 </div>
                 <div>
-                <Button>
-                    <img src="https://img.icons8.com/office/40/000000/waypoint-map.png"/>
-                    <div>Plan Ride</div>
-                </Button>
+                
                 </div>
             </div>
             </div>
@@ -94,3 +88,20 @@ class InfoBox extends Component {
 }
 
 export default InfoBox;
+
+
+/**
+ * old buttons
+ * 
+ * 
+ * <Button>
+                    <img src="https://img.icons8.com/office/40/000000/bicycle.png"/>
+                    <div>Buy Pass</div>
+                </Button>
+
+                <Button>
+                    <img src="https://img.icons8.com/office/40/000000/waypoint-map.png"/>
+                    <div>Plan Ride</div>
+                </Button>
+ * 
+ */

@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/citibike-tracker/static/css/main.e16fe68a.chunk.css",
-    "main.js": "/citibike-tracker/static/js/main.eee2a014.chunk.js",
-    "main.js.map": "/citibike-tracker/static/js/main.eee2a014.chunk.js.map",
+    "main.css": "/citibike-tracker/static/css/main.946e9705.chunk.css",
+    "main.js": "/citibike-tracker/static/js/main.6b566208.chunk.js",
+    "main.js.map": "/citibike-tracker/static/js/main.6b566208.chunk.js.map",
     "runtime-main.js": "/citibike-tracker/static/js/runtime-main.a6300b8d.js",
     "runtime-main.js.map": "/citibike-tracker/static/js/runtime-main.a6300b8d.js.map",
     "static/css/2.0624914a.chunk.css": "/citibike-tracker/static/css/2.0624914a.chunk.css",
-    "static/js/2.ef7a9ecd.chunk.js": "/citibike-tracker/static/js/2.ef7a9ecd.chunk.js",
-    "static/js/2.ef7a9ecd.chunk.js.map": "/citibike-tracker/static/js/2.ef7a9ecd.chunk.js.map",
+    "static/js/2.d5774e9b.chunk.js": "/citibike-tracker/static/js/2.d5774e9b.chunk.js",
+    "static/js/2.d5774e9b.chunk.js.map": "/citibike-tracker/static/js/2.d5774e9b.chunk.js.map",
     "index.html": "/citibike-tracker/index.html",
-    "precache-manifest.cfd840545b1fb898e163a187ea93fed8.js": "/citibike-tracker/precache-manifest.cfd840545b1fb898e163a187ea93fed8.js",
+    "precache-manifest.63d6fb7d028a1646a543465d69be1bf5.js": "/citibike-tracker/precache-manifest.63d6fb7d028a1646a543465d69be1bf5.js",
     "service-worker.js": "/citibike-tracker/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/citibike-tracker/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.e16fe68a.chunk.css.map": "/citibike-tracker/static/css/main.e16fe68a.chunk.css.map",
+    "static/css/main.946e9705.chunk.css.map": "/citibike-tracker/static/css/main.946e9705.chunk.css.map",
     "static/media/bikeLevelGreat.png": "/citibike-tracker/static/media/bikeLevelGreat.82210fe3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a6300b8d.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.ef7a9ecd.chunk.js",
-    "static/css/main.e16fe68a.chunk.css",
-    "static/js/main.eee2a014.chunk.js"
+    "static/js/2.d5774e9b.chunk.js",
+    "static/css/main.946e9705.chunk.css",
+    "static/js/main.6b566208.chunk.js"
   ]
 }

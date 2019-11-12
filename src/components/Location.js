@@ -19,7 +19,7 @@ class Location extends Component {
         return (
             <div>
                 <Button
-                    className={classes.loc} 
+                    className={classes.myButton} 
                     style = {this.props.buttonStyles}
                     onClick={this.props.setUserLocation}
                     >

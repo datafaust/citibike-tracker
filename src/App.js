@@ -12,6 +12,7 @@ import classes from './app.module.css';
 import FavoritesList from './components/FavoritesList';
 import DocksSwitch from './components/DocksSwitch';
 import { Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   constructor(props) {
@@ -269,6 +270,9 @@ class App extends Component {
      // <div className="container">
      <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
        
+       <div>{!this.state.loading ? 
+              this.LoadingMessage() : 
+              <div></div>}</div>
      
        <div className={classes.titleText}>
           <div className={classes.curve}></div>

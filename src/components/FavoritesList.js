@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Modal, cardClass } from 'react-bootstrap';
+import classes from './favoritesList.module.css'
+
 
 
 class FavoritesList extends Component {
@@ -34,6 +36,7 @@ class FavoritesList extends Component {
             <div >
                 <Button
                     variant="primary"
+                    className={classes.btn}
                     style={this.props.buttonStyles}
                     onClick={this.props.listFavorites}
                 >
@@ -41,6 +44,7 @@ class FavoritesList extends Component {
                 </Button>
 
                     <Modal 
+                        dialogClassName={classes.modal}
                         show={this.props.show} 
                         onHide={this.props.handleClose}>
                     <Modal.Header closeButton>
